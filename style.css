@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between; /* espaçamento para ficar cada um num canto do header */
+    padding: 0% 10%;
+    background-color: #303030;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    height: 120px;
+    margin-top: 10%;
+    margin-bottom: 10%; 
+    cursor: pointer;
+}
+.header_menu {
+    display: flex;
+    padding-right: 15%;
+    align-items: center;
+    gap: 9%;
+}
+.conta, .favoritos {
+    cursor: pointer;
+}
+.carrinho {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer;
+}
+
+/* Efeito de hover para destacar o botão quando o mouse passa por cima */
+.carrinho:hover {
+    background-color: #45a049;
+}
+/* barra de pesquisa */
+#divBusca{
+    background-color: 
+    #424242;
+    border:solid 1px;
+    display: flex;
+    border-radius:15px;
+    align-items: center;
+    width: 700px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:3000px;
+  }
+  /* imagem da lupa */
+  #btnBusca{
+    height: 20px;
+    margin: 0 3%;
+  }
+  input{
+    color: white; /* cor da letra na caixa de pesquisa */
+  }
